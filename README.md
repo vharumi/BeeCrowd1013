@@ -1,2 +1,2 @@
-# BeeCrowd1013
+# BeeCrowd
 Beecrowd Exercise 1013
