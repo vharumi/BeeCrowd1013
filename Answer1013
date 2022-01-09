@@ -1,0 +1,29 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+
+        int a, b,c, x,y, MaiorAB, Maior;
+            string[] s;
+
+            s = Console.ReadLine().Split(' ');
+            a = int.Parse(s[0]);
+            b = int.Parse(s[1]);
+            c = int.Parse(s[2]);
+
+            x = Math.Abs(a - b);
+          
+
+            MaiorAB = ((a + b + x )/ 2);
+
+            y = Math.Abs(MaiorAB - c);
+
+            Maior = (MaiorAB + c + y) / 2;
+          
+
+            Console.WriteLine(Maior + " eh o maior");
+
+    }
+
+}
